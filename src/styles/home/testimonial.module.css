@@ -1,0 +1,777 @@
+.feedContainer {
+  margin-top: 10%;
+  padding: 10px;
+  background-color: #f6f6f8;
+}
+
+.feedContent {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.feedHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.feedHeader .line1 {
+  width: 60px;
+  border: 1px solid #ff7426;
+  margin-right: 20px;
+}
+
+.feedHeader .line2 {
+  width: 60px;
+  border: 1px solid #ff7426;
+  margin-left: 20px;
+}
+
+.feedHeader h1 {
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #ff7426;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mainHeader {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainHeader h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+.feedGridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 70px;
+  gap: 30px;
+}
+
+.feedGrid {
+  border: 1px solid #0000004f;
+  height: 35vh;
+  padding: 30px;
+}
+
+.feedGrid:hover {
+  border: 1px solid #ff7426;
+
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header .image {
+  height: auto;
+  width: 26%;
+  border: 1px solid #00000018;
+  padding: 5px;
+}
+
+
+.feedName {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedName h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.feedName p {
+  font-size: 17px;
+  font-family: sans-serif;
+  margin-top: 8px;
+}
+
+.messageContainer {
+  margin-top: 8px;
+}
+
+.messageContainer p {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.cta button {
+  margin: 15px;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cta button:nth-child(1) {
+  background-color: #ff7426;
+  border: none;
+  color: #fff;
+}
+
+.cta button:nth-child(2) {
+  background: none;
+  border: 1px solid #ff7426;
+  color: #000;
+}
+
+/*--Desktops/Laptops-- [1024 x 600 - 768]*/
+@media(min-width:1024px) and (max-width:1024px) and (min-height:600px) and (max-height:768px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 95%;
+  }
+
+  .feedHeader h1 {
+    font-size: 15px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 30px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 25%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 15px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+
+/*--Desktops/Laptops-- [1280 - 1366 x 768 - 1024]*/
+@media(min-width:1280px) and (max-width:1366px) and (min-height:768px) and (max-height:1024px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 90%;
+  }
+
+  .feedHeader h1 {
+    font-size: 18px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 33px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 25%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 19px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 17px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 16px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+
+
+/*--Desktops/Laptops-- [1440 - 1680 x 900 - 1050]*/
+@media(min-width:1440px) and (max-width:1680px) and (min-height:900px) and (max-height:1050px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 85%;
+  }
+
+  .feedHeader h1 {
+    font-size: 18px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 37px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 25%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 21px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 18px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 17px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+
+/*--Desktops/Laptops-- [1920 x 1080 - 1200]*/
+@media(min-width:1920px) and (max-width:1920px) and (min-height:1080px) and (max-height:1200px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 85%;
+  }
+
+  .feedHeader h1 {
+    font-size: 20px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 43px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 25%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 24px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 20px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 19px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+
+
+
+/*--Desktops/Laptops-- [2560 x 1440]*/
+@media(min-width:2560px) and (max-width:2560px) and (min-height:1440px) and (max-height:1440px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 80%;
+  }
+
+  .feedHeader h1 {
+    font-size: 23px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 52px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 20%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 27px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 22px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 23px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 140px;
+    height: 50px;
+    font-size: 19px;
+  }
+}
+
+
+
+/*--Desktops/Laptops-- [3840 - 4096 x 2160 - 2304]*/
+@media(min-width:3840px) and (max-width:4096px) and (min-height:2160px) and (max-height:2304px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 80%;
+  }
+
+  .feedHeader h1 {
+    font-size: 25px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 60px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 20%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 27px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 25px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 27px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+
+
+/*--Desktops/Laptops-- [5120 x 2880]*/
+@media(min-width:5120px) and (max-width:5120px) and (min-height:2880px) and (max-height:2880px) {
+  .feedContainer {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .feedContent {
+    width: 80%;
+  }
+
+  .feedHeader h1 {
+    font-size: 25px;
+  }
+
+  .mainHeader {
+    margin-top: 20px;
+  }
+
+  .mainHeader h1 {
+    font-size: 60px;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    width: 20%;
+  }
+
+
+  .feedName {
+    margin-left: 10px;
+  }
+
+  .feedName h1 {
+    font-size: 27px;
+    font-family: sans-serif;
+  }
+
+  .feedName p {
+    font-size: 25px;
+  }
+
+  .messageContainer {
+    margin-top: 8px;
+  }
+
+  .messageContainer p {
+    font-weight: 100;
+    font-size: 27px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+
+/*===Mobile Phones [700px]*/
+@media(max-width:700px) {
+  .feedContainer {
+    margin-top: 20%;
+  }
+
+  .feedContent {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .feedGridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .feedHeader {
+    margin-top: 30px;
+  }
+
+  .feedHeader .line1 {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .feedHeader .line2 {
+    width: 50px;
+    margin-left: 10px;
+  }
+
+  .feedHeader h1 {
+    font-size: 15px;
+  }
+
+  .mainHeader {
+    margin-top: 30px;
+  }
+
+  .mainHeader h1 {
+    font-size: 25px;
+  }
+
+  .feedGrid {
+    height: auto;
+    padding: 10px;
+  }
+
+  .header .image {
+    height: auto;
+    width: 30%;
+  }
+
+  .feedName h1 {
+    font-size: 16px;
+  }
+
+  .feedName p {
+    font-size: 15px;
+  }
+
+  .messageContainer {
+    margin-top: 10px;
+  }
+
+  .messageContainer p {
+    font-size: 15px;
+  }
+
+  .cta {
+    margin-top: 50px;
+  }
+
+  .cta button {
+    margin: 15px;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+  }
+}

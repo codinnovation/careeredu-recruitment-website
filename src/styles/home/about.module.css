@@ -1,0 +1,661 @@
+.aboutContainer {
+   height: 100%;
+   width: 100%;
+   margin-top: 10%;
+}
+
+.aboutContent {
+   width: 75%;
+   margin: 0% auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 50px;
+}
+
+.aboutImage {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.aboutImage .image {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+}
+
+.descriptionContainer {
+   width: 100%;
+}
+
+.tagLine {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.tagLine h1 {
+   font-size: 17px;
+   font-family: sans-serif;
+   color: #ff7426;
+   text-transform: uppercase;
+}
+
+.tagLine .hr {
+   width: 80px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin-left: 10px;
+   border: 1.5px solid #ff7426;
+}
+
+.mainTagline {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 10px;
+}
+
+.mainTagline h1 {
+   font-size: 60px;
+   font-family: sans-serif;
+   font-weight: 100;
+}
+
+.subTagline {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.subTagline p {
+   font-size: 20px;
+   color: #0000009f;
+   font-family: sans-serif;
+   font-weight: 100;
+}
+
+.lastTagline {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 20px;
+}
+
+.lastTagline .hr {
+   height: 60px;
+   border: 2px solid #ff7426;
+}
+
+.lastTagline p {
+   margin-left: 7px;
+   font-family: sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+}
+
+
+.cta {
+   margin-top: 60px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.cta button {
+   width: 150px;
+   height: 50px;
+   background-color: #ff7426;
+   border: none;
+   color: #fff;
+}
+
+
+/*--Desktops/Laptops-- [1024 x 600 - 768]*/
+@media(min-width:1024px) and (max-width:1024px) and (min-height:600px) and (max-height:768px) {
+
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 95%;
+   }
+
+   .tagLine h1 {
+      font-size: 14px;
+   }
+
+   .tagLine .hr {
+      width: 60px;
+   }
+
+   .mainTagline {
+      margin-top: 15px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+   }
+
+   .mainTagline h1 {
+      font-size: 20px;
+   }
+
+   .subTagline {
+      margin-top: 25px;
+   }
+
+   .subTagline p {
+      font-size: 14px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 20px;
+   }
+
+   .lastTagline .hr {
+      height: 60px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 14px;
+   }
+
+   .cta {
+      margin-top: 30px;
+   }
+
+   .cta button {
+      width: 140px;
+      height: 50px;
+   }
+
+}
+
+
+/*--Desktops/Laptops-- [1280 - 1366 x 768 - 1024]*/
+@media(min-width:1280px) and (max-width:1366px) and (min-height:768px) and (max-height:1024px) {
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 90%;
+   }
+
+   .tagLine h1 {
+      font-size: 16px;
+   }
+
+   .tagLine .hr {
+      width: 60px;
+   }
+
+   .mainTagline {
+      margin-top: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+   }
+
+   .mainTagline h1 {
+      font-size: 30px;
+   }
+
+   .mainTagline h1:nth-child(2) {
+      margin-left: 5px;
+   }
+
+   .subTagline {
+      margin-top: 10px;
+   }
+
+   .subTagline p {
+      font-size: 18px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 20px;
+   }
+
+   .lastTagline .hr {
+      height: 70px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 18px;
+   }
+
+   .cta {
+      margin-top: 30px;
+   }
+
+   .cta button {
+      width: 140px;
+      height: 50px;
+      font-size: 17px;
+   }
+
+}
+
+
+
+
+/*--Desktops/Laptops-- [1440 - 1680 x 900 - 1050]*/
+@media(min-width:1440px) and (max-width:1680px) and (min-height:900px) and (max-height:1050px) {
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 85%;
+   }
+
+   .tagLine h1 {
+      font-size: 16px;
+   }
+
+   .tagLine .hr {
+      width: 60px;
+   }
+
+   .mainTagline {
+      margin-top: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+   }
+
+   .mainTagline h1 {
+      font-size: 30px;
+   }
+
+   .mainTagline h1:nth-child(2) {
+      margin-left: 5px;
+   }
+
+   .subTagline {
+      margin-top: 10px;
+   }
+
+   .subTagline p {
+      font-size: 18px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 20px;
+   }
+
+   .lastTagline .hr {
+      height: 70px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 18px;
+   }
+
+   .cta {
+      margin-top: 30px;
+   }
+
+   .cta button {
+      width: 140px;
+      height: 50px;
+      font-size: 17px;
+   }
+}
+
+
+/*--Desktops/Laptops-- [1920 x 1080 - 1200]*/
+@media(min-width:1920px) and (max-width:1920px) and (min-height:1080px) and (max-height:1200px) {
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 85%;
+   }
+
+   .tagLine h1 {
+      font-size: 16px;
+   }
+
+   .tagLine .hr {
+      width: 60px;
+   }
+
+   .mainTagline {
+      margin-top: 10px;
+   }
+
+   .mainTagline h1 {
+      font-size: 50px;
+   }
+
+
+   .subTagline {
+      margin-top: 10px;
+   }
+
+   .subTagline p {
+      font-size: 20px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 24px;
+   }
+
+   .lastTagline .hr {
+      height: 70px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 21px;
+   }
+
+   .cta {
+      margin-top: 30px;
+   }
+
+   .cta button {
+      width: 160px;
+      height: 50px;
+      font-size: 17px;
+   }
+}
+
+
+
+
+/*--Desktops/Laptops-- [2560 x 1440]*/
+@media(min-width:2560px) and (max-width:2560px) and (min-height:1440px) and (max-height:1440px) {
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 80%;
+   }
+
+   .tagLine h1 {
+      font-size: 20px;
+   }
+
+   .tagLine .hr {
+      width: 75px;
+   }
+
+   .mainTagline {
+      margin-top: 10px;
+   }
+
+   .mainTagline h1 {
+      font-size: 60px;
+   }
+
+
+   .subTagline {
+      margin-top: 30px;
+   }
+
+   .subTagline p {
+      font-size: 25px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 30px;
+   }
+
+   .lastTagline .hr {
+      height: 95px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 26px;
+   }
+
+   .cta {
+      margin-top: 30px;
+   }
+
+   .cta button {
+      width: 160px;
+      height: 60px;
+      font-size: 18px;
+   }
+}
+
+
+/*--Desktops/Laptops-- [3840 - 4096 x 2160 - 2304]*/
+@media(min-width:3840px) and (max-width:4096px) and (min-height:2160px) and (max-height:2304px) {
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 80%;
+   }
+
+   .tagLine h1 {
+      font-size: 25px;
+   }
+
+   .tagLine .hr {
+      width: 80px;
+   }
+
+   .mainTagline {
+      margin-top: 10px;
+   }
+
+   .mainTagline h1 {
+      font-size: 80px;
+   }
+
+
+   .subTagline {
+      margin-top: 30px;
+   }
+
+   .subTagline p {
+      font-size: 34px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 30px;
+   }
+
+   .lastTagline .hr {
+      height: 95px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 36px;
+   }
+
+   .cta {
+      margin-top: 50px;
+   }
+
+   .cta button {
+      width: 170px;
+      height: 70px;
+      font-size: 20px;
+   }
+}
+
+
+/*--Desktops/Laptops-- [5120 x 2880]*/
+@media(min-width:5120px) and (max-width:5120px) and (min-height:2880px) and (max-height:2880px) {
+   .aboutContainer {
+      margin-top: 11%;
+   }
+
+   .aboutContent {
+      gap: 30px;
+      width: 80%;
+   }
+
+   .tagLine h1 {
+      font-size: 35px;
+   }
+
+   .tagLine .hr {
+      width: 100px;
+   }
+
+   .mainTagline {
+      margin-top: 10px;
+   }
+
+   .mainTagline h1 {
+      font-size: 100px;
+   }
+
+
+   .subTagline {
+      margin-top: 40px;
+   }
+
+   .subTagline p {
+      font-size: 45px;
+   }
+
+   .lastTagline {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 50px;
+   }
+
+   .lastTagline .hr {
+      height: 110px;
+      border: 2px solid #ff7426;
+   }
+
+   .lastTagline p {
+      margin-left: 7px;
+      font-weight: 400;
+      font-size: 45px;
+   }
+
+   .cta {
+      margin-top: 60px;
+   }
+
+   .cta button {
+      width: 200px;
+      height: 80px;
+      font-size: 23px;
+   }
+}
+
+
+
+
+/*===Mobile Phones [700px]*/
+@media(max-width:700px) {
+   .aboutContainer {
+      margin-top: 20%;
+   }
+
+   .aboutContent {
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 50px;
+   }
+
+   .tagLine h1 {
+      font-size: 15px;
+   }
+   
+   .tagLine .hr {
+      width: 60px;
+      margin-left: 10px;
+   }
+
+   .mainTagline {
+      margin-top: 20px;
+   }
+   
+   .mainTagline h1 {
+      font-size: 28px;
+   }
+
+   .subTagline {
+      margin-top: 15px;
+   }
+   
+   .subTagline p {
+      font-size: 15.5px;
+   }
+   
+   .lastTagline {
+      margin-top: 15px;
+   }
+   
+   .lastTagline .hr {
+      height: 98px;
+      border: 2px solid #ff7426;
+   }
+   
+   .lastTagline p {
+      font-size: 15px;
+   }
+   
+   .cta {
+      margin-top: 60px;
+   }
+   
+   .cta button {
+      width: 150px;
+      height: 50px;
+      font-size: 15px;
+   }
+}

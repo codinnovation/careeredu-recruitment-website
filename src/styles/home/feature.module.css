@@ -1,0 +1,676 @@
+.featureContainer {
+   background-color: #f6f6f8;
+   margin-top: 10%;
+   padding: 20px;
+}
+
+.featureContent {
+   width: 75%;
+   margin: 0 auto;
+}
+
+.featureHeader {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.featureHeader .line1 {
+   width: 60px;
+   border: 1px solid #ff7426;
+   margin-right: 20px;
+}
+
+.featureHeader .line2 {
+   width: 60px;
+   border: 1px solid #ff7426;
+   margin-left: 20px;
+}
+
+.featureHeader h1 {
+   font-size: 17px;
+   font-family: sans-serif;
+   color: #ff7426;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.mainHeader {
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.mainHeader h1 {
+   font-size: 50px;
+   font-family: sans-serif;
+   font-weight: 600;
+}
+
+
+.jobGrid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+   margin-top: 5%;
+}
+
+.jobContainer {
+   background-color: #fff;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   height: 23vh;
+   padding: 20px;
+}
+
+.jobHeader {
+   display: flex;
+   width: 80%;
+   margin: 10px auto;
+}
+
+.jobHeader .icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #ff76267f;
+   margin-right: 15px;
+}
+
+.jobHeader h1 {
+   font-size: 20px;
+   justify-content: flex-start;
+   align-items: center;
+   display: flex;
+   font-family: sans-serif;
+}
+
+.jobDescription {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin: 20px auto;
+}
+
+.jobDescription p {
+   font-family: sans-serif;
+   font-size: 18px;
+   font-weight: 100;
+   color: #000000ba;
+}
+
+.cta {
+   width: 80%;
+   margin: 20px auto;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.cta h1 {
+   font-size: 18px;
+   color: #ff7426;
+}
+
+.cta .icon {
+   color: #ff7426;
+   margin-left: 12px;
+}
+
+
+/*--Desktops/Laptops-- [1024 x 600 - 768]*/
+@media(min-width:1024px) and (max-width:1024px) and (min-height:600px) and (max-height:768px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 95%;
+   }
+
+   .featureHeader h1 {
+      font-size: 15px;
+   }
+
+   .mainHeader {
+      margin-top: 25px;
+   }
+
+   .mainHeader h1 {
+      font-size: 30px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 10px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 95%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 20px;
+   }
+
+   .jobHeader h1 {
+      font-size: 16px;
+   }
+
+   .jobDescription {
+      width: 95%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 15px;
+   }
+
+   .cta {
+      width: 95%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 15px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 12px;
+   }
+
+}
+
+
+/*--Desktops/Laptops-- [1280 - 1366 x 768 - 1024]*/
+@media(min-width:1280px) and (max-width:1366px) and (min-height:768px) and (max-height:1024px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 90%;
+   }
+
+   .featureHeader h1 {
+      font-size: 16px;
+   }
+
+   .mainHeader {
+      margin-top: 25px;
+   }
+
+   .mainHeader h1 {
+      font-size: 33px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 10px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 90%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 25px;
+   }
+
+   .jobHeader h1 {
+      font-size: 18px;
+   }
+
+   .jobDescription {
+      width: 90%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 15px;
+   }
+
+   .cta {
+      width: 90%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 18px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 12px;
+   }
+}
+
+/*--Desktops/Laptops-- [1440 - 1680 x 900 - 1050]*/
+@media(min-width:1440px) and (max-width:1680px) and (min-height:900px) and (max-height:1050px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 85%;
+   }
+
+   .featureHeader h1 {
+      font-size: 18px;
+   }
+
+   .mainHeader {
+      margin-top: 25px;
+   }
+
+   .mainHeader h1 {
+      font-size: 38px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 10px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 85%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 30px;
+   }
+
+   .jobHeader h1 {
+      font-size: 20px;
+   }
+
+   .jobDescription {
+      width: 85%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 17px;
+   }
+
+   .cta {
+      width: 85%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 18px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 11px;
+   }
+}
+
+
+/*--Desktops/Laptops-- [1920 x 1080 - 1200]*/
+@media(min-width:1920px) and (max-width:1920px) and (min-height:1080px) and (max-height:1200px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 85%;
+   }
+
+   .featureHeader h1 {
+      font-size: 20px;
+   }
+
+   .mainHeader {
+      margin-top: 30px;
+   }
+
+   .mainHeader h1 {
+      font-size: 41px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 10px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 80%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 35px;
+   }
+
+   .jobHeader h1 {
+      font-size: 23px;
+   }
+
+   .jobDescription {
+      width: 80%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 18px;
+   }
+
+   .cta {
+      width: 80%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 18.5px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 11px;
+   }
+}
+
+/*--Desktops/Laptops-- [2560 x 1440]*/
+@media(min-width:2560px) and (max-width:2560px) and (min-height:1440px) and (max-height:1440px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 80%;
+   }
+
+   .featureHeader h1 {
+      font-size: 23px;
+   }
+
+   .mainHeader {
+      margin-top: 35px;
+   }
+
+   .mainHeader h1 {
+      font-size: 50px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 20px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 75%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 40px;
+   }
+
+   .jobHeader h1 {
+      font-size: 25px;
+   }
+
+   .jobDescription {
+      width: 75%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 22px;
+   }
+
+   .cta {
+      width: 75%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 19px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 11px;
+   }
+}
+
+
+/*--Desktops/Laptops-- [3840 - 4096 x 2160 - 2304]*/
+@media(min-width:3840px) and (max-width:4096px) and (min-height:2160px) and (max-height:2304px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 80%;
+   }
+
+   .featureHeader h1 {
+      font-size: 25px;
+   }
+
+   .mainHeader {
+      margin-top: 45px;
+   }
+
+   .mainHeader h1 {
+      font-size: 60px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 25px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 70%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 50px;
+   }
+
+   .jobHeader h1 {
+      font-size: 33px;
+   }
+
+   .jobDescription {
+      width: 70%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 27px;
+   }
+
+   .cta {
+      width: 70%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 24px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 11px;
+   }
+}
+
+
+
+/*--Desktops/Laptops-- [5120 x 2880]*/
+@media(min-width:5120px) and (max-width:5120px) and (min-height:2880px) and (max-height:2880px) {
+   .featureContainer {
+      margin-top: 10%;
+   }
+
+   .featureContent {
+      width: 80%;
+   }
+
+   .featureHeader h1 {
+      font-size: 30px;
+   }
+
+   .mainHeader {
+      margin-top: 50px;
+   }
+
+   .mainHeader h1 {
+      font-size: 80px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 40px;
+   }
+
+   .jobHeader {
+      display: flex;
+      width: 50%;
+      margin: 10px auto;
+   }
+
+   .jobHeader .icon {
+      font-size: 70px;
+   }
+
+   .jobHeader h1 {
+      font-size: 45px;
+   }
+
+   .jobDescription {
+      width: 50%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 35px;
+   }
+
+   .cta {
+      width: 50%;
+      margin: 20px auto;
+   }
+
+   .cta h1 {
+      font-size: 30px;
+      color: #ff7426;
+   }
+
+   .cta .icon {
+      color: #ff7426;
+      margin-left: 11px;
+   }
+}
+
+
+
+/*===Mobile Phones [700px]*/
+@media(max-width:700px) {
+   .featureContent {
+      width: 90%;
+      margin: 0 auto;
+   }
+
+   .featureHeader {
+      margin-top: 30px;
+   }
+
+   .featureHeader .line1 {
+      width: 50px;
+      margin-right: 10px;
+   }
+
+   .featureHeader .line2 {
+      width: 50px;
+      margin-left: 10px;
+   }
+
+   .featureHeader h1 {
+      font-size: 15px;
+   }
+
+   .mainHeader {
+      margin-top: 40px;
+      align-items: flex-start;
+   }
+
+   .mainHeader h1 {
+      font-size: 25px;
+   }
+
+   .jobContainer {
+      height: auto;
+      padding: 10px;
+   }
+
+
+   .jobGrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-top: 5%;
+   }
+
+   .jobHeader {
+      width: 95%;
+   }
+
+   .jobHeader .icon {
+      margin-right: 15px;
+      font-size: 20px;
+   }
+
+   .jobHeader h1 {
+      font-size: 16px;
+   }
+
+   .jobDescription {
+      width: 95%;
+      margin: 20px auto;
+   }
+
+   .jobDescription p {
+      font-size: 15px;
+   }
+
+   .cta {
+      width: 95%;
+      margin: 20px auto;
+   }
+   
+   .cta h1 {
+      font-size: 15px;
+   }
+   
+   .cta .icon {
+      margin-left: 8px;
+   }
+
+}
